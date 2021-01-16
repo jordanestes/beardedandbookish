@@ -1,0 +1,58 @@
+/*Imported Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+/* Main Page Styles */
+
+body {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+h1,h2,h3,h4,h5,li,p{
+    font-family: "Nanum Myeongjo", serif;
+	color: #383838;
+}
+
+#homepage-container li {
+    font-size: 40px;
+    line-height: 70px;
+}
+
+#logo {
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+#social-bar {
+    padding-top: 50px;
+}
+
+#footer {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+/* Style all links */
+a {
+	text-decoration: none;
+	color: #383838;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.fa:hover {
+  transition: all 0.5s ease;
+  color: lightblue;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+  }
